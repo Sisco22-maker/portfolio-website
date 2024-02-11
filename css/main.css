@@ -616,7 +616,7 @@ img {
     margin: 1rem 0;
   }
   #header-home #main-nav li {
-    padding: 0 1rem;
+    padding: 0 .75rem;
   }
   #header-home .header-content h2 {
     font-size: 1.5rem;
@@ -628,10 +628,13 @@ img {
     padding: 0.5rem 0.75rem;
   }
   .section-title {
-    font-size: 1.3rem !important;
+    font-size: 1rem !important;
   }
   .lead {
     font-size: 1rem;
+  }
+  .active {
+    color: #ffba00 !important;
   }
   #home-a .special,
   #home-b .status,
@@ -641,13 +644,12 @@ img {
   #main-footer .footer-container {
     grid-template-columns: 1fr;
     row-gap: 1rem;
-    justify-items: center;
   }
-  #main-footer .footer-container p{
+  #main-footer .footer-container > p {
     font-size: 1rem;
   }
   #header-about {
-    height: 20vh;
+    height: 40vh;
   }
   #header-about #main-nav {
     flex-direction: column;
@@ -658,8 +660,23 @@ img {
   #header-about #main-nav li {
     padding: 0 1rem;
   }
+  #about-me .section-title {
+    margin-bottom: -0.75rem;
+  }
+  #about-me .lead {
+    margin-bottom: -7rem;
+  }
   #about-me .about-me {
     grid-template-columns: 1fr !important;
+    padding: 0 0 2rem;
+  }
+  #about-me .about-me img {
+    max-height: 70%;
+    align-self: self-end;
+    position: relative;
+  }
+  #about-me .about-me img:hover {
+    filter: grayscale(50%);
   }
   #about-me .about-me .about-me-content {
     grid-column: 1;
@@ -694,7 +711,10 @@ img {
     grid-template-columns: 1fr;
     row-gap: 1.5rem;
   }
+  #contact-methods .contact-methods-container i {
+    font-size: 1.5rem;
+  }
   #contact-trailer h2 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 }
