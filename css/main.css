@@ -342,7 +342,7 @@ img {
 }
 
 #main-footer .footer-container .social .fab:hover {
-  color: #ffba00;
+  border-color: #ffba00;
 }
 
 #header-about {
@@ -407,15 +407,15 @@ img {
 }
 
 #about-progress .progress-bar.bar-one::after {
-  width: 100%;
+  width: 90%;
 }
 
 #about-progress .progress-bar.bar-two::after {
-  width: 80%;
+  width: 85%;
 }
 
 #about-progress .progress-bar.bar-three::after {
-  width: 60%;
+  width: 80%;
 }
 
 #about-progress .progress-bar.bar-four::after {
@@ -448,9 +448,10 @@ img {
 }
 
 #about-testimonials .testimonials-content > div:first-child {
-  background-color: #f4f4f4;
+  color: #f4f4f4;
+  background-color: #333;
   padding: 1.5rem;
-  border: 1px solid #333;
+  border: 1px solid #f4f4f4;
 }
 
 #about-testimonials .testimonials-content > div:last-child {
@@ -606,6 +607,12 @@ img {
 }
 
 @media (max-width: 767px) {
+  #main-nav .logo i {
+    font-size: 1.3rem;
+  }
+  #main-nav li {
+    padding: 0 1rem !important;
+  }
   #header-home {
     height: 30rem;
   }
@@ -614,9 +621,6 @@ img {
   }
   #header-home #main-nav .logo {
     margin: 1rem 0;
-  }
-  #header-home #main-nav li {
-    padding: 0 .75rem;
   }
   #header-home .header-content h2 {
     font-size: 1.5rem;
@@ -628,7 +632,7 @@ img {
     padding: 0.5rem 0.75rem;
   }
   .section-title {
-    font-size: 1rem !important;
+    font-size: 1.5rem !important;
   }
   .lead {
     font-size: 1rem;
@@ -646,7 +650,12 @@ img {
     row-gap: 1rem;
   }
   #main-footer .footer-container > p {
-    font-size: 1rem;
+    font-size: 1.2rem;
+  }
+  #main-footer .footer-container .social i {
+    font-size: 1.2rem;
+    height: 40px !important;
+    width: 40px !important;
   }
   #header-about {
     height: 40vh;
@@ -656,9 +665,6 @@ img {
   }
   #header-about #main-nav .logo {
     margin: 1rem 0;
-  }
-  #header-about #main-nav li {
-    padding: 0 1rem;
   }
   #about-me .section-title {
     margin-bottom: -0.75rem;
