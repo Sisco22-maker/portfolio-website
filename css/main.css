@@ -613,6 +613,9 @@ img {
   #main-nav li {
     padding: 0 1rem !important;
   }
+  #main-nav li a {
+    font-size: 1rem;
+  }
   #header-home {
     height: 30rem;
   }
