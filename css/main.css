@@ -641,6 +641,10 @@ img {
   #main-footer .footer-container {
     grid-template-columns: 1fr;
     row-gap: 1rem;
+    justify-items: center;
+  }
+  #main-footer .footer-container p{
+    font-size: 1rem;
   }
   #header-about {
     height: 20vh;
